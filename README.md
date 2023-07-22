@@ -4,7 +4,7 @@ This is a Potassium HTTP server, created with `banana init` CLI. Based on the mo
 
 ### Testing
 
-Start a local dev server with `banana dev`
+Start a local dev server with `banana dev` OR `docker build -t llama2 . && docker run --gpus=all -p 8000:8000 llama2 `
 
 Run test script `python test.py`
 
