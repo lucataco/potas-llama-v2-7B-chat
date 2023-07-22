@@ -15,7 +15,6 @@ def download_model():
         model_basename=model_basename,
         use_safetensors=True,
         trust_remote_code=True,
-        device="cuda:0",
         use_triton=use_triton,
         quantize_config=None
     )

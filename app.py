@@ -7,7 +7,7 @@ from auto_gptq import AutoGPTQForCausalLM
 app = Potassium("my_app")
 model_name_or_path = "TheBloke/Llama-2-7b-Chat-GPTQ"
 model_basename = "gptq_model-4bit-128g"
-use_triton = False
+use_triton = True
 
 # @app.init runs at startup, and loads models into the app's context
 @app.init

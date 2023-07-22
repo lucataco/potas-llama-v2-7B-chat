@@ -2,3 +2,4 @@ potassium
 torch
 transformers
 auto_gptq
+xformers
