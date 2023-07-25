@@ -1,6 +1,6 @@
 # Potassium Llama V2 7B chat
 
-This is a Potassium HTTP server, created with `banana init` CLI. Based on the model: [TheBloke/Llama-2-7b-Chat-GPTQ V2](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GPTQ).
+This is a Potassium HTTP server, created with `banana init` CLI. Based on the model: [meta-llama/Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).
 
 ### Testing
 

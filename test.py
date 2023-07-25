@@ -11,7 +11,8 @@ my_model = client.Client(
 )
 
 inputs = {
-    "prompt": "Write a story in the style of James Joyce. The story should be about a trip to the Irish countryside in 2083, to see the beautiful scenery and robots.",
+    "prompt": "Tell me about AI.",
+    "max_new_tokens": 128
 }
 
 # Call your model's inference endpoint on Banana.

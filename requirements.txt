@@ -1,5 +1,4 @@
 potassium
 torch
 transformers
-auto-gptq==0.2.2
-xformers
+accelerate
